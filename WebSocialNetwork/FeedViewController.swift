@@ -20,6 +20,10 @@ class FeedViewController: UIViewController {
     let popover = Popover()
     var curUserId: String?
     var curSelectedUserId: String?
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
@@ -60,7 +64,7 @@ class FeedViewController: UIViewController {
                 curResultDict["desc"] = curDesc
                 curResultDict["time"] = curTime
                 // get feed pic
-                self.storageRef.child("Feed").child(String(curFeedKey)).getData(maxSize: 2000000) { [unowned self](data, error) in
+                self.storageRef.child("Feed").child(String(curFeedKey)).getData(maxSize: 2500000) { [unowned self](data, error) in
                     
                     if error != nil {
                         print("error in fetching feed image")
@@ -117,19 +121,20 @@ class FeedViewController: UIViewController {
 extension FeedViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 
     @objc func addFriendButtonInPopover(_ gesture: UITapGestureRecognizer) {
-        databaseRef.child("User").child(self.curUserId!).child("Friends").child(self.curSelectedUserId!).setValue("friendID")
+        databaseRef.child("Friends").child(self.curUserId!).child(self.curSelectedUserId!).setValue("friendID")
         popover.dismiss()
     }
     
     @objc func removeFriendButtonInPopover(_ gesture: UITapGestureRecognizer) {
-        databaseRef.child("User").child(self.curUserId!).child("Friends").child(self.curSelectedUserId!).removeValue()
+        databaseRef.child("Friends").child(self.curUserId!).child(self.curSelectedUserId!).removeValue()
         popover.dismiss()
     }
     
     
     @objc func imageTapped(_ gesture: UITapGestureRecognizer) {
 
-        let curStartPoint = gesture.location(in: self.view)
+        let curStartPoint = gesture.location(in: self.collectionView)
+        let curPointInWindow = gesture.location(in: self.view)
         let curIndex = self.collectionView.indexPathForItem(at: curStartPoint)
         let curFeed = self.feeds[curIndex!.row]
         let curCellUserId = curFeed["userId"] as! String
@@ -142,39 +147,28 @@ extension FeedViewController: UICollectionViewDataSource, UICollectionViewDelega
             print("Hi")
             return
         } else {
-        databaseRef.child("User").child(self.curUserId!).child("Friends").child(self.curSelectedUserId!).observeSingleEvent(of: .value) { (dataSnapshot) in
+        databaseRef.child("Friends").child(self.curUserId!).child(self.curSelectedUserId!).observeSingleEvent(of: .value) { (dataSnapshot) in
             if let curFriendStatus = dataSnapshot.value as? String {
                     let curLabel = UILabel.init(frame: CGRect(x: aView.frame.minX + 5, y: aView.frame.minY + 15, width: aView.frame.width / 1.5, height: aView.frame.height / 2))
-                    
                     curLabel.text = "You are already friends!"
                     aView.addSubview(curLabel)
                     let btn = UIButton.init(frame: CGRect(x: curLabel.frame.minX, y: curLabel.frame.minY + 15, width: aView.frame.width / 1.5, height: aView.frame.height / 2))
-                    
                     btn.setTitle("Remove Friend", for: .normal)
                     btn.setTitleColor(.red, for: .normal)
                     btn.addTarget(self, action: #selector(self.removeFriendButtonInPopover), for: .touchDown)
-                    
                     aView.addSubview(btn)
                 } else {
                     // if you are not friends
                     let btn = UIButton.init(frame: CGRect(x: aView.frame.minX + 5, y: aView.frame.minY + 15, width: aView.frame.width / 2, height: aView.frame.height / 2))
-                    
                     btn.setTitle("Add Friend", for: .normal)
                     btn.setTitleColor(.blue, for: .normal)
                     btn.addTarget(self, action: #selector(self.addFriendButtonInPopover(_:)), for: .touchDown)
-                    
                     aView.addSubview(btn)
                 }
                 
-                self.popover.show(aView, point: curStartPoint)
+            self.popover.show(aView, point: curPointInWindow)
             }
         }
-        
-       
-        
-        
-        
-
         
     }
     
@@ -201,6 +195,8 @@ extension FeedViewController: UICollectionViewDataSource, UICollectionViewDelega
         return cell
     }
     
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath)
+    }
     
 }

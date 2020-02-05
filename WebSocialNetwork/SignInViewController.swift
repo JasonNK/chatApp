@@ -23,15 +23,20 @@ class SignInViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        guard let curUser = Auth.auth().currentUser else {
+        guard let curUserId = Auth.auth().currentUser?.uid else {
             return
         }
+        
+        
+        
+        
+        
         let ctrl = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarController")
         ctrl.modalPresentationStyle = .fullScreen
         self.present(ctrl, animated: true, completion: nil)
     }
     
-    let databaseReference = Database.database().reference()
+    let databaseRef = Database.database().reference()
     
     
     @IBAction func signInAction(_ sender: Any) {

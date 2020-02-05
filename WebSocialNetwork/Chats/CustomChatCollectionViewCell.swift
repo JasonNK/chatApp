@@ -19,7 +19,23 @@ class CustomChatCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-       
     }
     
+    func setUpCellData(recId: String, contentTxt: String, curUserId: String) {
+        meView.isHidden = true
+        oppoView.isHidden = true
+        
+        if recId == curUserId {
+            // TODO: unsolved mystery of isHidden property
+            oppoView.isHidden = false
+            oppoLabel.text = contentTxt
+        } else {
+            
+            meView.isHidden = false
+            meLabel.text = contentTxt
+        }
+             
+        
+        
+    }
 }

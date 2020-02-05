@@ -16,19 +16,18 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
     let storageRef = Storage.storage().reference()
     var curUserId = Auth.auth().currentUser?.uid
     var friends: [(String, String, UIImage)] = []
-    
     let listDispatchGroup = DispatchGroup()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableV.delegate = self
         tableV.dataSource = self
-        // Do any additional setup after loading the view.
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         var results = [(String, String, UIImage)]()
-        databaseRef.child("User").child(curUserId!).child("Friends").observeSingleEvent(of: .value) { [unowned self] (dataSnapshot) in
+        // TODO Friends
+        databaseRef.child("Friends").child(curUserId!).observeSingleEvent(of: .value) { [unowned self] (dataSnapshot) in
             self.listDispatchGroup.enter()
             let allFriends = dataSnapshot.value as? [String: String] ?? [:]
             if allFriends.count == 0 {self.listDispatchGroup.leave()}

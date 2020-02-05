@@ -19,7 +19,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var addressTxt: UITextField!
     
     let databaseReference = Database.database().reference()
-    
+    let signUpVM = SignUpViewModel()
     @IBAction func signUpAction(_ sender: UIButton) {
         guard let email = emailTxt.text, let firstname = firstNameTxt.text, let lastname = lastNameTxt.text, let password = passwordTxt.text, let phone = phoneTxt.text, let address = addressTxt.text else {
             return

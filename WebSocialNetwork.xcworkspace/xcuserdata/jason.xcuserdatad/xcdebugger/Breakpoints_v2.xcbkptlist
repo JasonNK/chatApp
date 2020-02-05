@@ -32,8 +32,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
             endingLineNumber = "57"
-            landmarkName = "signUpAction(_:)"
-            landmarkType = "7">
+            landmarkName = "SignInViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -62,8 +62,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getFeeds()"
             landmarkType = "7">
             <Locations>
@@ -110,8 +110,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "getFeeds()"
             landmarkType = "7">
             <Locations>
@@ -158,8 +158,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +174,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -190,8 +190,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,10 +206,10 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "FeedViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -222,10 +222,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
+            startingLineNumber = "203"
+            endingLineNumber = "203">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -254,8 +252,8 @@
             filePath = "WebSocialNetwork/FriendsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
             <Locations>
@@ -302,8 +300,8 @@
             filePath = "WebSocialNetwork/FriendsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -318,8 +316,8 @@
             filePath = "WebSocialNetwork/FriendsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
             <Locations>
@@ -399,9 +397,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "203"
-            endingLineNumber = "203"
-            landmarkName = "FeedViewController"
-            landmarkType = "21">
+            endingLineNumber = "203">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -414,8 +410,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -430,8 +426,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -446,8 +442,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -462,8 +458,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -478,8 +474,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -494,8 +490,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "getFeeds()"
             landmarkType = "7">
          </BreakpointContent>
@@ -510,8 +506,8 @@
             filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "getFeeds()"
             landmarkType = "7">
             <Locations>
@@ -558,8 +554,8 @@
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "sendText(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -574,58 +570,10 @@
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "sendText(_:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "85DA9237-290E-4326-9524-3671F3E20AC9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WebSocialNetwork/ChatViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "sendText(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "85DA9237-290E-4326-9524-3671F3E20AC9 - 8d1030db5e0c7ca7"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in WebSocialNetwork.ChatViewController.sendText(Any) -&gt; ()"
-                  moduleName = "WebSocialNetwork"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jason/iosTraining/WebSocialNetwork/WebSocialNetwork/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "1403">
-               </Location>
-               <Location
-                  uuid = "85DA9237-290E-4326-9524-3671F3E20AC9 - 58c565966c4df260"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in WebSocialNetwork.ChatViewController.sendText(Any) -&gt; ()"
-                  moduleName = "WebSocialNetwork"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jason/iosTraining/WebSocialNetwork/WebSocialNetwork/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "93">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -638,8 +586,8 @@
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "sendText(_:)"
             landmarkType = "7">
             <Locations>
@@ -686,8 +634,8 @@
             filePath = "WebSocialNetwork/FriendsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
             <Locations>
@@ -734,8 +682,8 @@
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "sendText(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -743,79 +691,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "21107932-FA97-479E-92FF-EED33BF866E2"
+            uuid = "4ACB124B-EBD6-42FE-8581-B7B2A4C4A7F3"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
-            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "sendText(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1BD0D7E6-A449-4A23-BDC2-8385CA3AC3D8"
+            uuid = "4B951353-55C3-4171-A7A0-B61B55A18E2B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
-            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "sendText(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "095D6B0D-4AA8-494E-B3C9-1CC975AB9B09"
+            uuid = "915AE6D2-4F78-49F0-86FC-12977B19610E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "collectionView(_:cellForItemAt:)"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "sendText(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A1407BA0-0214-43A6-9462-70127F1E2EE4"
+            uuid = "918A5D0B-E26C-4206-AA6A-95E798D7F0BC"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebSocialNetwork/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "46429B57-694F-40AF-B04B-F0FFA7DAEA1F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WebSocialNetwork/MessageViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -823,16 +755,192 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BD4323B2-06E8-4AA1-A469-4548F854A037"
+            uuid = "60F70023-30F7-492B-AF89-FBC6E1CEA734"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WebSocialNetwork/MessageViewController.swift"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "getLatest(message:num:)"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EF0E5D0-48F5-490B-B2A4-E89C33ED5618"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED0F9B86-0647-402C-AC1F-2FD9EA868F42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "imageTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69111D71-2BFB-44BF-96E4-961CAEE13A3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EA962E5-3ADB-4D4A-9BC1-DA48F8E32176"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "imageTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D9BBC81-0DDE-47E2-B0EF-14B46ACD2A96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "imageTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C70F830-D085-4C60-B83C-4073FAE55BE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "imageTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "843C4F9B-830C-4D80-BE05-9F4D2C5DD6AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "imageTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBA81894-9552-4556-89E5-833E7ADF7F05"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "imageTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8ECB3A63-97A8-45A3-8DFE-F734163CD41C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "fetchAllChats(messageId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50BA70C3-0A8D-4414-BC84-191CCE888266"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "getChatsCount()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85BBC2AC-6F0C-4E4F-99CF-5963F4B73EFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebSocialNetwork/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "getChatObject(index:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
